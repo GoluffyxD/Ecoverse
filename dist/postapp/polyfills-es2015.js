@@ -3248,7 +3248,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\mhmki\Projects\Dockerized_WebProject\angular_frontend\src\polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! H:\folder\angular_frontend\src\polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })

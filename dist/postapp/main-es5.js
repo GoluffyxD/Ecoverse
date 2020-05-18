@@ -968,12 +968,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(AuthService, [{
         key: "signup",
         value: function signup(user) {
-          return this.http.post('http://localhost:8080/user/signup', user);
+          return this.http.post('/user/signup', user);
         }
       }, {
         key: "authlogin",
         value: function authlogin(user) {
-          return this.http.post('http://localhost:8080/user/login', user);
+          return this.http.post('/user/login', user);
         }
       }, {
         key: "setSession",
@@ -2995,7 +2995,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, PostserveService);
 
         this.http = http;
-        this.baseURL = 'http://localhost:8080/api/';
+        this.baseURL = '/api/';
       }
 
       _createClass(PostserveService, [{
@@ -3117,47 +3117,47 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(ProfileService, [{
         key: "getdata",
         value: function getdata() {
-          return this.http.get('http://localhost:8080/profile/profileget');
+          return this.http.get('/profile/profileget');
         }
       }, {
         key: "postdata",
         value: function postdata(data) {
-          return this.http.post('http://localhost:8080/profile/addprofile', data);
+          return this.http.post('/profile/addprofile', data);
         }
       }, {
         key: "viewuser",
         value: function viewuser(data) {
-          return this.http.post('http://localhost:8080/profile/viewuser', data);
+          return this.http.post('/profile/viewuser', data);
         }
       }, {
         key: "follow",
         value: function follow(data) {
-          return this.http.post('http://localhost:8080/profile/follow', data);
+          return this.http.post('/profile/follow', data);
         }
       }, {
         key: "unfollow",
         value: function unfollow(data) {
-          return this.http.post('http://localhost:8080/profile/unfollow', data);
+          return this.http.post('/profile/unfollow', data);
         }
       }, {
         key: "getinfo",
         value: function getinfo(data) {
-          return this.http.post('http://localhost:8080/user/getinfo', data);
+          return this.http.post('/user/getinfo', data);
         }
       }, {
         key: "basicinfo",
         value: function basicinfo() {
-          return this.http.get('http://localhost:8080/profile/basicinfo');
+          return this.http.get('/profile/basicinfo');
         }
       }, {
         key: "changedp",
         value: function changedp(data) {
-          return this.http.post('http://localhost:8080/profile/changedp', data);
+          return this.http.post('/profile/changedp', data);
         }
       }, {
         key: "getupvotes",
         value: function getupvotes() {
-          return this.http.get('http://localhost:8080/profile/getupvotes');
+          return this.http.get('/profile/getupvotes');
         }
       }]);
 
@@ -4986,7 +4986,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Users\mhmki\Projects\Dockerized_WebProject\angular_frontend\src\main.ts */
+    /*! H:\folder\angular_frontend\src\main.ts */
     "./src/main.ts");
     /***/
   }

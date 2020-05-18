@@ -688,10 +688,10 @@ class AuthService {
         this.http = http;
     }
     signup(user) {
-        return this.http.post('http://localhost:8080/user/signup', user);
+        return this.http.post('/user/signup', user);
     }
     authlogin(user) {
-        return this.http.post('http://localhost:8080/user/login', user);
+        return this.http.post('/user/login', user);
     }
     setSession(authResult) {
         localStorage.setItem('id_token', authResult.token);
@@ -1724,7 +1724,7 @@ __webpack_require__.r(__webpack_exports__);
 class PostserveService {
     constructor(http) {
         this.http = http;
-        this.baseURL = 'http://localhost:8080/api/';
+        this.baseURL = '/api/';
     }
     getposts() {
         return this.http.get(this.baseURL + 'posts');
@@ -1786,31 +1786,31 @@ class ProfileService {
         this.http = http;
     }
     getdata() {
-        return this.http.get('http://localhost:8080/profile/profileget');
+        return this.http.get('/profile/profileget');
     }
     postdata(data) {
-        return this.http.post('http://localhost:8080/profile/addprofile', data);
+        return this.http.post('/profile/addprofile', data);
     }
     viewuser(data) {
-        return this.http.post('http://localhost:8080/profile/viewuser', data);
+        return this.http.post('/profile/viewuser', data);
     }
     follow(data) {
-        return this.http.post('http://localhost:8080/profile/follow', data);
+        return this.http.post('/profile/follow', data);
     }
     unfollow(data) {
-        return this.http.post('http://localhost:8080/profile/unfollow', data);
+        return this.http.post('/profile/unfollow', data);
     }
     getinfo(data) {
-        return this.http.post('http://localhost:8080/user/getinfo', data);
+        return this.http.post('/user/getinfo', data);
     }
     basicinfo() {
-        return this.http.get('http://localhost:8080/profile/basicinfo');
+        return this.http.get('/profile/basicinfo');
     }
     changedp(data) {
-        return this.http.post('http://localhost:8080/profile/changedp', data);
+        return this.http.post('/profile/changedp', data);
     }
     getupvotes() {
-        return this.http.get('http://localhost:8080/profile/getupvotes');
+        return this.http.get('/profile/getupvotes');
     }
 }
 ProfileService.ɵfac = function ProfileService_Factory(t) { return new (t || ProfileService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };
@@ -2713,7 +2713,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\mhmki\Projects\Dockerized_WebProject\angular_frontend\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! H:\folder\angular_frontend\src\main.ts */"./src/main.ts");
 
 
 /***/ })

@@ -637,11 +637,11 @@ module.exports = exported;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\mhmki\Projects\Dockerized_WebProject\angular_frontend\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
-__webpack_require__(/*! C:\Users\mhmki\Projects\Dockerized_WebProject\angular_frontend\node_modules\@clr\icons\clr-icons.min.css */"./node_modules/@clr/icons/clr-icons.min.css");
-__webpack_require__(/*! C:\Users\mhmki\Projects\Dockerized_WebProject\angular_frontend\node_modules\@clr\ui\clr-ui.min.css */"./node_modules/@clr/ui/clr-ui.min.css");
-__webpack_require__(/*! C:\Users\mhmki\Projects\Dockerized_WebProject\angular_frontend\node_modules\@angular\material\prebuilt-themes\indigo-pink.css */"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css");
-module.exports = __webpack_require__(/*! C:\Users\mhmki\Projects\Dockerized_WebProject\angular_frontend\src\styles.css */"./src/styles.css");
+__webpack_require__(/*! H:\folder\angular_frontend\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
+__webpack_require__(/*! H:\folder\angular_frontend\node_modules\@clr\icons\clr-icons.min.css */"./node_modules/@clr/icons/clr-icons.min.css");
+__webpack_require__(/*! H:\folder\angular_frontend\node_modules\@clr\ui\clr-ui.min.css */"./node_modules/@clr/ui/clr-ui.min.css");
+__webpack_require__(/*! H:\folder\angular_frontend\node_modules\@angular\material\prebuilt-themes\indigo-pink.css */"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css");
+module.exports = __webpack_require__(/*! H:\folder\angular_frontend\src\styles.css */"./src/styles.css");
 
 
 /***/ })
