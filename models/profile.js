@@ -7,7 +7,7 @@ const ProfileSchema = mongoose.Schema({
     gender :        {   type:   String },
     following :     {   type:   Array  },
     upvotes:        {   type:   Array   },
-    userimage:      {   type:   String, default:"http://localhost:3000/pictures/default.png"}
+    userimage:      {   type:   String, default:"/pictures/default.png"}
 });
 
 module.exports = mongoose.model('Profile',ProfileSchema);

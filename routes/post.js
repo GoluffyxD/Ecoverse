@@ -71,7 +71,7 @@ router.get('/posts',checkAuth,(req,res,next)=>{
 router.post('/post',checkAuth,upload.single('postImage'),(req,res,next)=>{
     let path;
     if(req.file){
-        path='http://localhost:8080/'+req.file.path;
+        path='/'+req.file.path;
     }
     else{
         console.log(req.file);

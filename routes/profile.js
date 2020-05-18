@@ -44,7 +44,7 @@ router.get('/basicinfo',checkAuth,(req,res,next)=>{
 router.post('/changedp',checkAuth,upload.single('newImage'),(req,res,next)=>{
     let path;
     if(req.file){
-        path='http://localhost:8080/'+req.file.path;
+        path='/'+req.file.path;
     }
     else{
         console.log("Hmmm")
