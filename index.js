@@ -9,6 +9,7 @@ let url;
 var credentials = vcapServices.getCredentials('mlab');
 url=credentials.uri;
 // console.log("URI:"+uri)   
+const port = process.env.PORT || 8080
 console.log(process.env.JWT_KEY);
 dotenv.config();
 console.log(process.env.JWT_KEY);
@@ -60,7 +61,7 @@ app.get('*', (req,res) => {
 
 
 
-const port=8080;
+
 app.listen(port,"0.0.0.0",()=>{
-    console.log('Server connect to port : '+port);
+    console.log(`Server connect to port : ${port}`);
 });
