@@ -26,13 +26,6 @@ app.use(bodyparser.urlencoded({extended: true}));
 
 app.use(express.static(process.cwd()+"/dist/postapp/"));
 
-// mongoose.connect('mongodb://mongo:27017/postdata');
-// if (url==null)
-// {url="mongodb://mongo:27017/mynewdb";}
-// mongoose.connect(`mongodb+srv://testuser:test1234@cluster0-u20by.mongodb.net/test?retryWrites=true&w=majority`,{useNewUrlParser:true,useUnifiedTopology: true});
-// mongoose.connection.on('connected',() => {
-//     console.log("MongoDB server connected");
-// });
 
 // mongoose.connection.on('error',() => {
 //     console.log("Error connecting to server");
