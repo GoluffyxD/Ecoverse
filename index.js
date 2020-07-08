@@ -37,7 +37,7 @@ app.use(express.static(process.cwd()+"/dist/postapp/"));
 // mongoose.connection.on('error',() => {
 //     console.log("Error connecting to server");
 // })
-mongoose.connect(`mongodb+srv://testuser:test1234@cluster0-u20by.mongodb.net/test?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://####:####@####.mongodb.net/test?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
